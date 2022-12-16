@@ -1,0 +1,59 @@
+body{
+	background-color: white;
+	min-height:100vh;
+	margin:0; 
+	position:relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 50px; /* Set same as footer's height */
+}
+
+footer {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.container{
+	padding: 20px 20px 0px 20px;
+	align-content: center;
+	text-align: center;
+	color: black;
+}
+
+#handType{
+	font-size: 36pt;
+}
+
+#computerHandType{
+	font-size: 36pt;
+}
+
+#result{
+	font-size: 36pt;
+	color: red;
+}
+
+.btn{
+	display: inline-block;
+}
+
+.rock{
+	font-size: 12pt;
+	padding: 10px;
+}
+
+.paper{
+	font-size: 12pt;
+	padding: 10px;
+}
+
+.scissors{
+	font-size: 12pt;
+	padding: 10px;
+}
